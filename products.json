@@ -1,0 +1,232 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "code": "SHIRT-01",
+            "name": "Slim Fit Checkered Shirt",
+            "category": "shirt",
+            "price": 799,
+            "originalPrice": 999,
+            "image": "shirt1.jpg",
+            "stock": 5,
+            "onSale": true,
+            "fastSelling": false
+        },
+        {
+            "id": 2,
+            "code": "SHIRT-02",
+            "name": "Formal Blue Shirt",
+            "category": "shirt",
+            "price": 899,
+            "image": "shirt2.jpg",
+            "stock": 8,
+            "onSale": false,
+            "fastSelling": true
+        },
+        {
+            "id": 3,
+            "code": "SHIRT-03",
+            "name": "Casual Linen Shirt",
+            "category": "shirt",
+            "price": 699,
+            "originalPrice": 849,
+            "image": "shirt3.jpg",
+            "stock": 3,
+            "onSale": true,
+            "fastSelling": false
+        },
+        {
+            "id": 4,
+            "code": "SHIRT-04",
+            "name": "Denim Shirt",
+            "category": "shirt",
+            "price": 749,
+            "image": "shirt4.jpg",
+            "stock": 0,
+            "onSale": false,
+            "fastSelling": false
+        },
+        {
+            "id": 5,
+            "code": "SHIRT-05",
+            "name": "Plaid Flannel Shirt",
+            "category": "shirt",
+            "price": 649,
+            "image": "shirt5.jpg",
+            "stock": 7,
+            "onSale": false,
+            "fastSelling": true
+        },
+        {
+            "id": 6,
+            "code": "TSHIRT-01",
+            "name": "Graphic Print T-Shirt",
+            "category": "tshirt",
+            "price": 399,
+            "originalPrice": 499,
+            "image": "tshirt1.jpg",
+            "stock": 10,
+            "onSale": true,
+            "fastSelling": false
+        },
+        {
+            "id": 7,
+            "code": "TSHIRT-02",
+            "name": "Oversized Black T-Shirt",
+            "category": "tshirt",
+            "price": 349,
+            "image": "tshirt2.jpg",
+            "stock": 12,
+            "onSale": false,
+            "fastSelling": true
+        },
+        {
+            "id": 8,
+            "code": "TSHIRT-03",
+            "name": "V-Neck White T-Shirt",
+            "category": "tshirt",
+            "price": 299,
+            "image": "tshirt3.jpg",
+            "stock": 15,
+            "onSale": false,
+            "fastSelling": false
+        },
+        {
+            "id": 9,
+            "code": "TSHIRT-04",
+            "name": "Striped Cotton T-Shirt",
+            "category": "tshirt",
+            "price": 449,
+            "image": "tshirt4.jpg",
+            "stock": 6,
+            "onSale": false,
+            "fastSelling": false
+        },
+        {
+            "id": 10,
+            "code": "TSHIRT-05",
+            "name": "Pocket Detail T-Shirt",
+            "category": "tshirt",
+            "price": 379,
+            "originalPrice": 449,
+            "image": "tshirt5.jpg",
+            "stock": 4,
+            "onSale": true,
+            "fastSelling": true
+        },
+        {
+            "id": 11,
+            "code": "JEANS-01",
+            "name": "Slim Fit Blue Jeans",
+            "category": "jeans",
+            "price": 1199,
+            "originalPrice": 1499,
+            "image": "jeans1.jpg",
+            "stock": 7,
+            "onSale": true,
+            "fastSelling": false
+        },
+        {
+            "id": 12,
+            "code": "JEANS-02",
+            "name": "Black Skinny Jeans",
+            "category": "jeans",
+            "price": 1099,
+            "image": "jeans2.jpg",
+            "stock": 5,
+            "onSale": false,
+            "fastSelling": true
+        },
+        {
+            "id": 13,
+            "code": "JEANS-03",
+            "name": "Ripped Denim Jeans",
+            "category": "jeans",
+            "price": 1299,
+            "image": "jeans3.jpg",
+            "stock": 3,
+            "onSale": false,
+            "fastSelling": false
+        },
+        {
+            "id": 14,
+            "code": "JEANS-04",
+            "name": "Regular Fit Jeans",
+            "category": "jeans",
+            "price": 999,
+            "image": "jeans4.jpg",
+            "stock": 8,
+            "onSale": false,
+            "fastSelling": false
+        },
+        {
+            "id": 15,
+            "code": "JEANS-05",
+            "name": "Light Wash Jeans",
+            "category": "jeans",
+            "price": 899,
+            "originalPrice": 1099,
+            "image": "jeans5.jpg",
+            "stock": 2,
+            "onSale": true,
+            "fastSelling": true
+        },
+        {
+            "id": 16,
+            "code": "HOODIE-01",
+            "name": "Pullover Hoodie",
+            "category": "hoodie",
+            "price": 1299,
+            "originalPrice": 1499,
+            "image": "hoodie1.jpg",
+            "stock": 6,
+            "onSale": true,
+            "fastSelling": false
+        },
+        {
+            "id": 17,
+            "code": "HOODIE-02",
+            "name": "Zip-Up Hoodie",
+            "category": "hoodie",
+            "price": 1399,
+            "image": "hoodie2.jpg",
+            "stock": 4,
+            "onSale": false,
+            "fastSelling": true
+        },
+        {
+            "id": 18,
+            "code": "HOODIE-03",
+            "name": "Graphic Print Hoodie",
+            "category": "hoodie",
+            "price": 1499,
+            "image": "hoodie3.jpg",
+            "stock": 7,
+            "onSale": false,
+            "fastSelling": false
+        },
+        {
+            "id": 19,
+            "code": "HOODIE-04",
+            "name": "Fleece Lined Hoodie",
+            "category": "hoodie",
+            "price": 1599,
+            "image": "hoodie4.jpg",
+            "stock": 3,
+            "onSale": false,
+            "fastSelling": false
+        },
+        {
+            "id": 20,
+            "code": "HOODIE-05",
+            "name": "Oversized Hoodie",
+            "category": "hoodie",
+            "price": 1199,
+            "originalPrice": 1399,
+            "image": "hoodie5.jpg",
+            "stock": 1,
+            "onSale": true,
+            "fastSelling": true
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENZ STYLEZ | Trendy Men's Fashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <img src="images/logo.png" alt="MENZ STYLEZ Logo" class="logo">
+            <div class="tagline">MENZ STYLEZ | Trendy Men's Fashion</div>
+            <div class="social">
+                <a href="https://instagram.com/instagramid" target="_blank"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </header>
+    <div class="banner-slider">
+        <div class="banner-slides">
+            <div class="slide active">
+                <div class="slide-image" style="background-image: url('images/banner1.jpg')"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-image" style="background-image: url('images/banner2.png')"></div>
+            </div>
+            <div class="slide">
+                <div class="slide-image" style="background-image: url('images/banner3.png')"></div>
+            </div>
+        </div>
+        <div class="banner-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <nav>
+        <div class="category-selector">
+            <div class="category-circle" data-category="all">
+                <img src="images/all-icon.png" alt="All Products">
+                <span>All</span>
+            </div>
+            <div class="category-circle" data-category="shirt">
+                <img src="images/shirt-icon.png" alt="Shirts">
+                <span>Shirts</span>
+            </div>
+            <div class="category-circle" data-category="tshirt">
+                <img src="images/tshirt-icon.png" alt="T-Shirts">
+                <span>T-Shirts</span>
+            </div>
+            <div class="category-circle" data-category="jeans">
+                <img src="images/jeans-icon.png" alt="Jeans">
+                <span>Jeans</span>
+            </div>
+            <div class="category-circle" data-category="hoodie">
+                <img src="images/hoodie-icon.png" alt="Hoodies">
+                <span>Hoodies</span>
+            </div>
+        </div>
+    </nav>
+
+    <div class="banner">
+        <h2>HOT DEALS 🔥</h2>
+        <p>All Kerala Delivery | DM to Order</p>
+    </div>
+
+    <div class="search-section">
+        <div class="search-box">
+            <input type="text" id="search-input" placeholder="Search products...">
+            <button id="search-btn"><i class="fas fa-search"></i></button>
+        </div>
+    </div>
+
+    <main>
+        <div class="products-container" id="products-container">
+            
+        </div>
+    </main>
+
+    <div class="contact-section">
+        <h2>DM TO ORDER</h2>
+        <p>Send product code via Instagram or use the form below</p>
+        
+        <form id="contact-form" action="https://formspree.io/f/your-formspree-id" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="phone" placeholder="Mobile Number" required>
+            <input type="text" name="product-code" placeholder="Product Code (e.g., TSHIRT-05)" required>
+            <input type="text" name="size" placeholder="Size (S/M/L/XL)">
+            <input type="text" name="district" placeholder="Your District" required>
+            <textarea name="message" placeholder="Any special requests"></textarea>
+            <button type="submit">Send Inquiry</button>
+        </form>
+        
+        <div class="instagram-cta">
+            <p>OR DM US DIRECTLY ON INSTAGRAM</p>
+            <a href="https://instagram.com/instagramid" class="insta-btn" target="_blank">
+                <i class="fab fa-instagram"></i> @instagramid
+            </a>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2023 MENZ STYLEZ | All Kerala Delivery</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
